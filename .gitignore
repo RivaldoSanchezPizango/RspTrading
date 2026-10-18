@@ -1,0 +1,33 @@
+# Frontend dependencies and generated output at any depth
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment; examples are safe to track
+.env
+.env.*
+!.env.example
+
+# Backend output
+/backend/bin/
+/backend/tmp/
+*.exe
+*.dll
+*.test
+
+# Coverage and logs
+coverage/
+coverage.out
+*.lcov
+npm-debug.log*
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
+*.swo
+*~
